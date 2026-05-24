@@ -9,7 +9,7 @@
       "sl": 741.8,
       "entry_date": "2026-04-30",
       "shares": 13.0,
-      "day_count": 16
+      "day_count": 17
     },
     "2454": {
       "entry": 3430.0,
@@ -17,7 +17,7 @@
       "sl": 2965.0,
       "entry_date": "2026-05-06",
       "shares": 4.0,
-      "day_count": 12
+      "day_count": 13
     },
     "6415": {
       "entry": 503.0,
@@ -25,7 +25,7 @@
       "sl": 409.3,
       "entry_date": "2026-05-14",
       "shares": 32.0,
-      "day_count": 6
+      "day_count": 7
     },
     "2303": {
       "entry": 108.0,
@@ -33,7 +33,7 @@
       "sl": 88.0,
       "entry_date": "2026-05-14",
       "shares": 134.0,
-      "day_count": 6
+      "day_count": 7
     },
     "2327": {
       "entry": 520.0,
@@ -41,7 +41,7 @@
       "sl": 434.7,
       "entry_date": "2026-05-20",
       "shares": 25.0,
-      "day_count": 2
+      "day_count": 3
     },
     "3481": {
       "entry": 44.7,
@@ -49,7 +49,7 @@
       "sl": 37.2,
       "entry_date": "2026-05-22",
       "shares": 331.0,
-      "day_count": 0
+      "day_count": 1
     }
   },
   "closed_trades": [
@@ -300,6 +300,13 @@
     },
     {
       "date": "2026-05-22",
+      "equity": 224953.0,
+      "capital": 133139.0,
+      "n_positions": 6,
+      "n_closed_today": 0
+    },
+    {
+      "date": "2026-05-24",
       "equity": 224953.0,
       "capital": 133139.0,
       "n_positions": 6,
@@ -561,6 +568,18 @@
     },
     {
       "date": "2026-05-22",
+      "tickers": [
+        "2327",
+        "3481",
+        "2454",
+        "2303",
+        "6415",
+        "2408",
+        "6285"
+      ]
+    },
+    {
+      "date": "2026-05-24",
       "tickers": [
         "2327",
         "3481",
