@@ -1,23 +1,15 @@
 {
   "start_date": "2026-04-22",
   "initial_capital": 200000,
-  "capital": 150629.2390377524,
+  "capital": 134491.7382222519,
   "positions": {
-    "6415": {
-      "entry": 503.0,
-      "tp": 627.9,
-      "sl": 409.3,
-      "entry_date": "2026-05-14",
-      "shares": 32.0,
-      "day_count": 19
-    },
     "2454": {
       "entry": 4245.0,
       "tp": 5345.0,
       "sl": 3420.0,
       "entry_date": "2026-05-25",
       "shares": 3.0,
-      "day_count": 11
+      "day_count": 12
     },
     "2303": {
       "entry": 142.0,
@@ -25,7 +17,7 @@
       "sl": 115.2,
       "entry_date": "2026-05-28",
       "shares": 107.0,
-      "day_count": 10
+      "day_count": 11
     },
     "2327": {
       "entry": 846.0,
@@ -33,7 +25,7 @@
       "sl": 699.8,
       "entry_date": "2026-06-02",
       "shares": 18.0,
-      "day_count": 7
+      "day_count": 8
     },
     "3149": {
       "entry": 87.2,
@@ -41,7 +33,23 @@
       "sl": 71.1,
       "entry_date": "2026-06-09",
       "shares": 177.0,
-      "day_count": 2
+      "day_count": 3
+    },
+    "6239": {
+      "entry": 347.5,
+      "tp": 455.5,
+      "sl": 266.5,
+      "entry_date": "2026-06-12",
+      "shares": 48.0,
+      "day_count": 0
+    },
+    "3481": {
+      "entry": 48.5,
+      "tp": 67.1,
+      "sl": 34.7,
+      "entry_date": "2026-06-12",
+      "shares": 308.0,
+      "day_count": 0
     }
   },
   "closed_trades": [
@@ -236,6 +244,18 @@
       "entry_date": "2026-06-01",
       "exit_date": "2026-06-10",
       "days_held": 7
+    },
+    {
+      "ticker": "6415",
+      "entry": 503.0,
+      "exit": 487.0,
+      "shares": 32.0,
+      "pnl": -636.0,
+      "pnl_pct": -3.18,
+      "reason": "TIME",
+      "entry_date": "2026-05-14",
+      "exit_date": "2026-06-12",
+      "days_held": 20
     }
   ],
   "equity_curve": [
@@ -483,6 +503,13 @@
       "capital": 150629.0,
       "n_positions": 5,
       "n_closed_today": 0
+    },
+    {
+      "date": "2026-06-12",
+      "equity": 223031.0,
+      "capital": 134492.0,
+      "n_positions": 6,
+      "n_closed_today": 1
     }
   ],
   "daily_signals": [
@@ -903,6 +930,18 @@
         "3481",
         "2881",
         "2882",
+        "2353"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "tickers": [
+        "2327",
+        "6239",
+        "3481",
+        "2344",
+        "2404",
+        "2454",
         "2353"
       ]
     }
