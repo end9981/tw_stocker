@@ -9,7 +9,7 @@
       "sl": 54.1,
       "entry_date": "2026-06-24",
       "shares": 228.0,
-      "day_count": 14
+      "day_count": 15
     },
     "1303": {
       "entry": 197.0,
@@ -17,7 +17,7 @@
       "sl": 162.7,
       "entry_date": "2026-07-02",
       "shares": 84.0,
-      "day_count": 8
+      "day_count": 9
     },
     "6446": {
       "entry": 1395.0,
@@ -25,7 +25,7 @@
       "sl": 1199.5,
       "entry_date": "2026-07-02",
       "shares": 11.0,
-      "day_count": 8
+      "day_count": 9
     },
     "1326": {
       "entry": 65.0,
@@ -33,7 +33,7 @@
       "sl": 52.5,
       "entry_date": "2026-07-13",
       "shares": 288.0,
-      "day_count": 1
+      "day_count": 2
     },
     "2634": {
       "entry": 67.1,
@@ -41,7 +41,7 @@
       "sl": 58.0,
       "entry_date": "2026-07-14",
       "shares": 251.0,
-      "day_count": 0
+      "day_count": 1
     }
   },
   "closed_trades": [
@@ -764,6 +764,13 @@
       "capital": 151421.0,
       "n_positions": 5,
       "n_closed_today": 0
+    },
+    {
+      "date": "2026-07-15",
+      "equity": 235922.0,
+      "capital": 151421.0,
+      "n_positions": 5,
+      "n_closed_today": 0
     }
   ],
   "daily_signals": [
@@ -1461,6 +1468,18 @@
         "1326",
         "2408",
         "2379"
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "tickers": [
+        "1303",
+        "2634",
+        "6446",
+        "1301",
+        "1326",
+        "2303",
+        "2408"
       ]
     }
   ]
