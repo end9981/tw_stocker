@@ -1,23 +1,15 @@
 {
   "start_date": "2026-04-22",
   "initial_capital": 200000,
-  "capital": 147700.88988554972,
+  "capital": 135274.10574634036,
   "positions": {
-    "6446": {
-      "entry": 1195.0,
-      "tp": 1515.6,
-      "sl": 954.5,
-      "entry_date": "2026-07-17",
-      "shares": 13.0,
-      "day_count": 19
-    },
     "6505": {
       "entry": 70.8,
       "tp": 94.4,
       "sl": 53.1,
       "entry_date": "2026-07-31",
       "shares": 203.0,
-      "day_count": 9
+      "day_count": 10
     },
     "3231": {
       "entry": 186.0,
@@ -25,7 +17,7 @@
       "sl": 158.4,
       "entry_date": "2026-08-03",
       "shares": 69.0,
-      "day_count": 8
+      "day_count": 9
     },
     "3017": {
       "entry": 2910.0,
@@ -33,7 +25,7 @@
       "sl": 2372.2,
       "entry_date": "2026-08-12",
       "shares": 5.0,
-      "day_count": 1
+      "day_count": 2
     },
     "2395": {
       "entry": 698.0,
@@ -41,6 +33,22 @@
       "sl": 586.6,
       "entry_date": "2026-08-13",
       "shares": 24.0,
+      "day_count": 1
+    },
+    "2357": {
+      "entry": 996.0,
+      "tp": 1152.4,
+      "sl": 878.7,
+      "entry_date": "2026-08-14",
+      "shares": 17.0,
+      "day_count": 0
+    },
+    "3443": {
+      "entry": 5465.0,
+      "tp": 6840.0,
+      "sl": 4433.8,
+      "entry_date": "2026-08-14",
+      "shares": 3.0,
       "day_count": 0
     }
   },
@@ -452,6 +460,18 @@
       "entry_date": "2026-07-30",
       "exit_date": "2026-08-13",
       "days_held": 10
+    },
+    {
+      "ticker": "6446",
+      "entry": 1195.0,
+      "exit": 1500.0,
+      "shares": 13.0,
+      "pnl": 3822.0,
+      "pnl_pct": 25.52,
+      "reason": "TIME",
+      "entry_date": "2026-07-17",
+      "exit_date": "2026-08-14",
+      "days_held": 20
     }
   ],
   "equity_curve": [
@@ -1014,6 +1034,13 @@
       "capital": 147701.0,
       "n_positions": 5,
       "n_closed_today": 2
+    },
+    {
+      "date": "2026-08-14",
+      "equity": 228912.0,
+      "capital": 135274.0,
+      "n_positions": 6,
+      "n_closed_today": 1
     }
   ],
   "daily_signals": [
@@ -1975,6 +2002,18 @@
         "3443",
         "2301",
         "2376"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "tickers": [
+        "3017",
+        "2357",
+        "3443",
+        "6669",
+        "3231",
+        "2395",
+        "2383"
       ]
     }
   ]
