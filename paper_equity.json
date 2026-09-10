@@ -1,23 +1,15 @@
 {
   "start_date": "2026-04-22",
   "initial_capital": 200000,
-  "capital": 135187.28044544967,
+  "capital": 135789.1332923332,
   "positions": {
-    "2395": {
-      "entry": 698.0,
-      "tp": 846.5,
-      "sl": 586.6,
-      "entry_date": "2026-08-13",
-      "shares": 24.0,
-      "day_count": 19
-    },
     "2357": {
       "entry": 996.0,
       "tp": 1152.4,
       "sl": 878.7,
       "entry_date": "2026-08-14",
       "shares": 17.0,
-      "day_count": 18
+      "day_count": 19
     },
     "3443": {
       "entry": 5465.0,
@@ -25,7 +17,7 @@
       "sl": 4433.8,
       "entry_date": "2026-08-14",
       "shares": 3.0,
-      "day_count": 18
+      "day_count": 19
     },
     "2301": {
       "entry": 317.5,
@@ -33,7 +25,7 @@
       "sl": 259.5,
       "entry_date": "2026-08-31",
       "shares": 47.0,
-      "day_count": 7
+      "day_count": 8
     },
     "1303": {
       "entry": 234.5,
@@ -41,7 +33,7 @@
       "sl": 190.4,
       "entry_date": "2026-09-01",
       "shares": 57.0,
-      "day_count": 6
+      "day_count": 7
     },
     "2615": {
       "entry": 115.5,
@@ -49,7 +41,15 @@
       "sl": 96.2,
       "entry_date": "2026-09-03",
       "shares": 114.0,
-      "day_count": 4
+      "day_count": 5
+    },
+    "6505": {
+      "entry": 86.2,
+      "tp": 101.8,
+      "sl": 74.5,
+      "entry_date": "2026-09-10",
+      "shares": 175.0,
+      "day_count": 0
     }
   },
   "closed_trades": [
@@ -519,6 +519,18 @@
       "reason": "TIME",
       "entry_date": "2026-08-12",
       "exit_date": "2026-09-09",
+      "days_held": 20
+    },
+    {
+      "ticker": "2395",
+      "entry": 698.0,
+      "exit": 659.0,
+      "shares": 24.0,
+      "pnl": -1062.0,
+      "pnl_pct": -5.59,
+      "reason": "TIME",
+      "entry_date": "2026-08-13",
+      "exit_date": "2026-09-10",
       "days_held": 20
     }
   ],
@@ -1213,6 +1225,13 @@
       "date": "2026-09-09",
       "equity": 225729.0,
       "capital": 135187.0,
+      "n_positions": 6,
+      "n_closed_today": 1
+    },
+    {
+      "date": "2026-09-10",
+      "equity": 226544.0,
+      "capital": 135789.0,
       "n_positions": 6,
       "n_closed_today": 1
     }
@@ -2404,6 +2423,18 @@
         "1326",
         "2887",
         "3017"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "tickers": [
+        "1303",
+        "6505",
+        "2615",
+        "2884",
+        "2883",
+        "1326",
+        "2887"
       ]
     }
   ]
