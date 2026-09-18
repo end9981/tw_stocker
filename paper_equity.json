@@ -1,7 +1,7 @@
 {
   "start_date": "2026-04-22",
   "initial_capital": 200000,
-  "capital": 137360.52267035015,
+  "capital": 123591.16047656757,
   "positions": {
     "2301": {
       "entry": 317.5,
@@ -9,7 +9,7 @@
       "sl": 259.5,
       "entry_date": "2026-08-31",
       "shares": 47.0,
-      "day_count": 13
+      "day_count": 14
     },
     "1303": {
       "entry": 234.5,
@@ -17,7 +17,7 @@
       "sl": 190.4,
       "entry_date": "2026-09-01",
       "shares": 57.0,
-      "day_count": 12
+      "day_count": 13
     },
     "2615": {
       "entry": 115.5,
@@ -25,7 +25,7 @@
       "sl": 96.2,
       "entry_date": "2026-09-03",
       "shares": 114.0,
-      "day_count": 10
+      "day_count": 11
     },
     "6505": {
       "entry": 86.2,
@@ -33,7 +33,7 @@
       "sl": 74.5,
       "entry_date": "2026-09-10",
       "shares": 175.0,
-      "day_count": 5
+      "day_count": 6
     },
     "2884": {
       "entry": 46.3,
@@ -41,7 +41,7 @@
       "sl": 42.5,
       "entry_date": "2026-09-11",
       "shares": 366.0,
-      "day_count": 4
+      "day_count": 5
     },
     "2883": {
       "entry": 37.8,
@@ -49,7 +49,15 @@
       "sl": 34.9,
       "entry_date": "2026-09-11",
       "shares": 404.0,
-      "day_count": 4
+      "day_count": 5
+    },
+    "3443": {
+      "entry": 7150.0,
+      "tp": 8750.0,
+      "sl": 5950.0,
+      "entry_date": "2026-09-18",
+      "shares": 2.0,
+      "day_count": 0
     }
   },
   "closed_trades": [
@@ -1292,6 +1300,13 @@
       "equity": 226031.0,
       "capital": 137361.0,
       "n_positions": 6,
+      "n_closed_today": 0
+    },
+    {
+      "date": "2026-09-18",
+      "equity": 226445.0,
+      "capital": 123591.0,
+      "n_positions": 7,
       "n_closed_today": 0
     }
   ],
@@ -2554,6 +2569,18 @@
         "2892",
         "2303",
         "6505"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "tickers": [
+        "3443",
+        "2303",
+        "2883",
+        "2454",
+        "1303",
+        "2884",
+        "3017"
       ]
     }
   ]
