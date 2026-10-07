@@ -1,23 +1,15 @@
 {
   "start_date": "2026-04-22",
   "initial_capital": 200000,
-  "capital": 147348.8125870113,
+  "capital": 148520.42080300377,
   "positions": {
-    "6505": {
-      "entry": 86.2,
-      "tp": 101.8,
-      "sl": 74.5,
-      "entry_date": "2026-09-10",
-      "shares": 175.0,
-      "day_count": 18
-    },
     "2884": {
       "entry": 46.3,
       "tp": 51.3,
       "sl": 42.5,
       "entry_date": "2026-09-11",
       "shares": 366.0,
-      "day_count": 17
+      "day_count": 18
     },
     "2883": {
       "entry": 37.8,
@@ -25,7 +17,7 @@
       "sl": 34.9,
       "entry_date": "2026-09-11",
       "shares": 404.0,
-      "day_count": 17
+      "day_count": 18
     },
     "3443": {
       "entry": 7150.0,
@@ -33,7 +25,7 @@
       "sl": 5950.0,
       "entry_date": "2026-09-18",
       "shares": 2.0,
-      "day_count": 12
+      "day_count": 13
     },
     "3037": {
       "entry": 1215.0,
@@ -41,7 +33,15 @@
       "sl": 1052.4,
       "entry_date": "2026-10-01",
       "shares": 13.0,
-      "day_count": 3
+      "day_count": 4
+    },
+    "1303": {
+      "entry": 314.0,
+      "tp": 375.0,
+      "sl": 268.2,
+      "entry_date": "2026-10-07",
+      "shares": 53.0,
+      "day_count": 0
     }
   },
   "closed_trades": [
@@ -584,6 +584,18 @@
       "entry_date": "2026-09-03",
       "exit_date": "2026-10-01",
       "days_held": 20
+    },
+    {
+      "ticker": "6505",
+      "entry": 86.2,
+      "exit": 101.8,
+      "shares": 175.0,
+      "pnl": 2597.0,
+      "pnl_pct": 18.1,
+      "reason": "TP",
+      "entry_date": "2026-09-10",
+      "exit_date": "2026-10-07",
+      "days_held": 19
     }
   ],
   "equity_curve": [
@@ -1412,6 +1424,13 @@
       "capital": 147349.0,
       "n_positions": 5,
       "n_closed_today": 0
+    },
+    {
+      "date": "2026-10-07",
+      "equity": 231346.0,
+      "capital": 148520.0,
+      "n_positions": 5,
+      "n_closed_today": 1
     }
   ],
   "daily_signals": [
@@ -2829,6 +2848,18 @@
         "3711",
         "2404",
         "2368"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "tickers": [
+        "3443",
+        "3037",
+        "1303",
+        "6505",
+        "3044",
+        "2404",
+        "3711"
       ]
     }
   ]
