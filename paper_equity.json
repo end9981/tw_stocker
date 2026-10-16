@@ -1,23 +1,15 @@
 {
   "start_date": "2026-04-22",
   "initial_capital": 200000,
-  "capital": 148550.78574451664,
+  "capital": 163429.62774451665,
   "positions": {
-    "3443": {
-      "entry": 7150.0,
-      "tp": 8750.0,
-      "sl": 5950.0,
-      "entry_date": "2026-09-18",
-      "shares": 2.0,
-      "day_count": 19
-    },
     "3037": {
       "entry": 1215.0,
       "tp": 1431.8,
       "sl": 1052.4,
       "entry_date": "2026-10-01",
       "shares": 13.0,
-      "day_count": 10
+      "day_count": 11
     },
     "1303": {
       "entry": 314.0,
@@ -25,7 +17,7 @@
       "sl": 268.2,
       "entry_date": "2026-10-07",
       "shares": 53.0,
-      "day_count": 6
+      "day_count": 7
     },
     "6505": {
       "entry": 110.5,
@@ -33,7 +25,7 @@
       "sl": 94.4,
       "entry_date": "2026-10-08",
       "shares": 134.0,
-      "day_count": 5
+      "day_count": 6
     },
     "1301": {
       "entry": 88.9,
@@ -41,7 +33,7 @@
       "sl": 78.8,
       "entry_date": "2026-10-14",
       "shares": 186.0,
-      "day_count": 1
+      "day_count": 2
     }
   },
   "closed_trades": [
@@ -619,6 +611,18 @@
       "reason": "TIME",
       "entry_date": "2026-09-11",
       "exit_date": "2026-10-09",
+      "days_held": 20
+    },
+    {
+      "ticker": "3443",
+      "entry": 7150.0,
+      "exit": 7480.0,
+      "shares": 2.0,
+      "pnl": 544.0,
+      "pnl_pct": 4.62,
+      "reason": "TIME",
+      "entry_date": "2026-09-18",
+      "exit_date": "2026-10-16",
       "days_held": 20
     }
   ],
@@ -1497,6 +1501,13 @@
       "capital": 148551.0,
       "n_positions": 5,
       "n_closed_today": 0
+    },
+    {
+      "date": "2026-10-16",
+      "equity": 225556.0,
+      "capital": 163430.0,
+      "n_positions": 4,
+      "n_closed_today": 1
     }
   ],
   "daily_signals": [
@@ -2998,6 +3009,18 @@
         "3044",
         "2368",
         "1326"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "tickers": [
+        "6505",
+        "1303",
+        "1301",
+        "2368",
+        "3443",
+        "1326",
+        "3044"
       ]
     }
   ]
